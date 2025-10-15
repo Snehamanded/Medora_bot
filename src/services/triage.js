@@ -1,5 +1,3 @@
-// Simple heuristic fallback if Gemini is unavailable
-// Expanded red flags: ACS, stroke, sepsis, anaphylaxis, ectopic etc.
 const RED_FLAGS = [
 	/"worst"\s+headache|thunderclap/i,
 	/chest\s*pain|pressure\s+in\s+chest|tightness\s+in\s+chest/i,
